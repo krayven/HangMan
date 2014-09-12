@@ -3,7 +3,7 @@ Kevin Ray
 CSIS 2450
 Assignment A01
 HangMan in the console
-send word as arguments in runnign prorgam or can be hardcoded
+send word as arguments in running program or can be hardcoded
 
  */
 
@@ -51,7 +51,7 @@ public class HangMan {
         System.out.println("");
         System.out.println("  ;--------,           ");
         if (lives <=5){
-            System.out.println("  |        O           ");
+            System.out.println("  |        *           ");
         }else{
             System.out.println("  |");
         }
