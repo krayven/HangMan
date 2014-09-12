@@ -14,7 +14,8 @@ import java.util.Scanner;
 
 /**
  *
- * @author user
+ * @author Kevin Ray
+ * @version     1.01
  */
 public class HangMan {
     protected static int lives = 6;
@@ -45,6 +46,16 @@ public class HangMan {
     private static void add_Letter(String guess){
         guessedLetters.add(guess.substring(0,1).toUpperCase());
     }
+    
+    /**
+     * Show hangman results based on lives left 
+     * <p>
+     * Uses lives global variable to show hangman results,  
+     * displays in text / ascii style
+     * <p>
+     * 
+     * @return void
+     */
     
     private static void show_Hangman(){
         System.out.println("Number of Lives: "+lives);
